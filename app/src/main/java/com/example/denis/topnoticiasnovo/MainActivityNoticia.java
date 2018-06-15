@@ -25,7 +25,7 @@ public class MainActivityNoticia extends Activity {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_noticia);
 
         noticias.getNoticias();
 
