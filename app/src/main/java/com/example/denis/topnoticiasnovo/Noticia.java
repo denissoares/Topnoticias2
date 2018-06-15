@@ -11,10 +11,6 @@ public class Noticia {
     private String titulo;
     private String conteudo;
 
-    public Noticia(String data){
-        dataPost = data;
-    }
-
     public Noticia (String dataPost, String autor, String titulo, String conteudo){
         this.dataPost = dataPost;
         this.autor = autor;
@@ -28,10 +24,10 @@ public class Noticia {
     public String getAutor (){
         return autor;
     }
-    public String getTitulo (){
+    public String getTitulo () {
         return titulo;
     }
-    public String getConteudo (){
+    public String getConteudo () {
         return conteudo;
     }
 }

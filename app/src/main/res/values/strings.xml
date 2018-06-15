@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">TopNoticiasNovo</string>
-
+    <string name="app_name">Top Notícias</string>
+    <string name="mensagemInicial">TENHA EM SUA MÃO AS PRINCIPAIS NOTÍCIAS DO BRASIL E DO MUNDO</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
 </resources>

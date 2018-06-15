@@ -33,8 +33,6 @@ public class Conexao {
 
         //String url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=bcb0e25a2c47424d8551ff4b32879f81";
 
-
-
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
