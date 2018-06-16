@@ -82,11 +82,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_escolher) {
-            Intent myIntent = new Intent(view.getContext(), TelaNoticia.class);
-            startActivityForResult(myIntent, 0);
+            startActivity(new Intent(this, MainActivityNoticia.class));
         } else if (id == R.id.nav_todas) {
-            Intent myIntent = new Intent(view.getContext(), TelaNoticia.class);
-            startActivityForResult(myIntent, 0);
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
