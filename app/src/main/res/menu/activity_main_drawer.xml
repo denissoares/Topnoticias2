@@ -4,19 +4,13 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Todas Notícias" />
-        <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_escolher"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Sobre" />
-
+            android:title="Escolher notícia" />
         <item
-            android:id="@+id/nav1_slideshow"
+            android:id="@+id/nav_todas"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Sobre" />
-
+            android:title="Todas notícias" />
 
     </group>
 </menu>

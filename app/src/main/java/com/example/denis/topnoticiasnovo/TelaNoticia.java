@@ -1,5 +1,6 @@
 package com.example.denis.topnoticiasnovo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -8,7 +9,7 @@ import android.widget.TextView;
  * Created by denis on 04/06/2018.
  */
 
-public class TelaNoticia {
+public class TelaNoticia extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
