@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_escolher) {
             startActivity(new Intent(this, DrawerActivityNoticia.class));
         } else if (id == R.id.nav_sobre) {
-
+            startActivity(new Intent(this, DrawerActivitySobre.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -22,12 +22,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivityNoticia"
-            android:label="Excluir" />
-        <activity
-            android:name=".TelaNoticia"
-            android:label="Notícia" />
-        <activity
             android:name=".DrawerActivityNoticia"
             android:label="Escolher a notícia"
             android:theme="@style/AppTheme.NoActionBar" />
