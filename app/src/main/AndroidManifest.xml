@@ -21,12 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivityNoticia"></activity>
-        <activity android:name=".TelaNoticia"></activity>
+        <activity
+            android:name=".MainActivityNoticia"
+            android:label="Excluir" />
+        <activity
+            android:name=".TelaNoticia"
+            android:label="Notícia" />
         <activity
             android:name=".DrawerActivityNoticia"
-            android:label="@string/title_activity_drawer_noticia"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="Escolher a notícia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerActivityTelaNoticia"
+            android:label="Notícia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerActivitySobre"
+            android:label="Sobre"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

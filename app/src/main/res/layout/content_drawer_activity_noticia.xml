@@ -8,61 +8,55 @@
     tools:context=".DrawerActivityNoticia"
     tools:showIn="@layout/app_bar_drawer_activity_noticia">
 
-    <!--<TextView
+    <TextView
         android:id="@+id/data"
         android:text="DATA"
         android:textStyle="bold"
         android:textColor="@color/Preta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginVertical="5px"
         android:gravity="center"
-        android:layout_marginTop="20px"
-        android:layout_marginBottom="20px"/>-->
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <Spinner
         android:id="@+id/escolherData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_below="@id/data"
-        android:layout_marginTop="5px"
-        android:layout_marginBottom="5px" />
+        app:layout_constraintTop_toBottomOf="@id/data"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
-    <!--<TextView
+    <TextView
         android:id="@+id/autor"
         android:text="AUTOR"
         android:textStyle="bold"
         android:textColor="@color/Preta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="5px"
         android:gravity="center"
-        android:layout_below="@id/escolherData"
-        android:layout_marginTop="5px"
-        android:layout_marginBottom="5px"/>
+        app:layout_constraintTop_toBottomOf="@id/escolherData"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <Spinner
         android:id="@+id/escolherAutor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_below="@id/autor"
-        android:layout_marginTop="5px"
-        android:layout_marginBottom="5px" />
+        app:layout_constraintTop_toBottomOf="@id/autor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <ListView
         android:id="@+id/escolherTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_below="@id/escolherAutor"
-        android:layout_marginTop="5px"
-        android:layout_marginBottom="5px" />-->
+        app:layout_constraintTop_toBottomOf="@id/escolherAutor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <!--<TextView android:id="@+id/encontradas"
         android:textColor="@color/Preta"
