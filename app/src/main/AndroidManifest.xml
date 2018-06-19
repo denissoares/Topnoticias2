@@ -21,12 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivityNoticia"></activity>
+        <activity android:name=".TelaNoticia"></activity>
         <activity
-            android:name=".MainActivityNoticia">
-        </activity>
-        <activity
-            android:name=".TelaNoticia">
-        </activity>
+            android:name=".DrawerActivityNoticia"
+            android:label="@string/title_activity_drawer_noticia"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
