@@ -26,7 +26,7 @@ public class Conexao {
         //https://api.myjson.com/bins/3kpyw
         //http://api.flickr.com/services/feeds/photos_public.gne?tags=beatles&format=json&jsoncallback=?
         //String url = "https://api.myjson.com/bins/3gkfk";
-        String url = "https://github.com/denissoares/Topnoticias2/blob/master/top.json";
+        String url = "https://raw.githubusercontent.com/denissoares/Topnoticias2/master/top.json";
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
