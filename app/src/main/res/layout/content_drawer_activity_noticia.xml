@@ -8,7 +8,7 @@
     tools:context=".DrawerActivityNoticia"
     tools:showIn="@layout/app_bar_drawer_activity_noticia">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/data"
         android:text="DATA"
         android:textStyle="bold"
@@ -16,10 +16,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="5px"
         android:gravity="center"
         android:layout_marginTop="20px"
-        android:layout_marginBottom="20px"/>
+        android:layout_marginBottom="20px"/>-->
 
     <Spinner
         android:id="@+id/escolherData"
@@ -31,14 +31,14 @@
         android:layout_marginTop="5px"
         android:layout_marginBottom="5px" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/autor"
         android:text="AUTOR"
         android:textStyle="bold"
         android:textColor="@color/Preta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="5px"
         android:gravity="center"
         android:layout_below="@id/escolherData"
         android:layout_marginTop="5px"
@@ -62,7 +62,7 @@
         android:gravity="center"
         android:layout_below="@id/escolherAutor"
         android:layout_marginTop="5px"
-        android:layout_marginBottom="5px" />
+        android:layout_marginBottom="5px" />-->
 
     <!--<TextView android:id="@+id/encontradas"
         android:textColor="@color/Preta"
