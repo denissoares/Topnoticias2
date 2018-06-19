@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class DrawerActivityTelaNoticia extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -32,6 +33,29 @@ public class DrawerActivityTelaNoticia extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        /* AQUI COMEÇA NOSSO CÓDIGO */
+
+        //Pega a intent de outra activity
+        Intent parametro = getIntent();
+
+        //Recupera as strings da outra activity
+        String autor = parametro.getStringExtra("autor");
+        String data = parametro.getStringExtra("data");
+        String titulo = parametro.getStringExtra("titulo");
+        String noticia = parametro.getStringExtra("noticia");
+
+        TextView areaAutor = (TextView)findViewById(R.id.autor);
+        areaAutor.setText("Por: " + autor);
+
+        TextView areaData = (TextView)findViewById(R.id.data);
+        areaData.setText(data);
+
+        TextView areaTitulo = (TextView)findViewById(R.id.titulo);
+        areaTitulo.setText(titulo);
+
+        TextView areaNoticia = (TextView)findViewById(R.id.noticia);
+        areaNoticia.setText(noticia);
     }
 
     @Override
