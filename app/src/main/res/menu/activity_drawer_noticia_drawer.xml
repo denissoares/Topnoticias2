@@ -8,7 +8,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Escolher notícia" />
         <item
-            android:id="@+id/nav_todas"
+            android:id="@+id/nav_sobre"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Todas notícias" />
 
